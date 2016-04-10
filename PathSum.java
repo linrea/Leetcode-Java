@@ -13,7 +13,13 @@ Given the below binary tree and sum = 22,
 return true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.
  */
 
-
+/**
+ * Definition for a binary tree node. 
+ * public class TreeNode { int val; 
+ * TreeNode left;
+ * TreeNode right; 
+ * TreeNode(int x) { val = x; } }
+ */
 public class PathSum
 {
 	public static boolean hasPathSum(TreeNode root, int sum)
@@ -41,7 +47,7 @@ public class PathSum
 	public static void main(String[] args)
 	{
 		TreeNode root=new TreeNode(5);
-		 TreeNode newNodeB = new TreeNode(4);  
+		TreeNode newNodeB = new TreeNode(4);  
 	        TreeNode newNodeC = new TreeNode(8);  
 	        TreeNode newNodeD = new TreeNode(11);  
 	        TreeNode newNodeE = new TreeNode(7);  
