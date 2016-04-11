@@ -21,11 +21,5 @@ public class ConvertSortedArraytoBinarySearchTree
 		return node;
 	
 	}
-	public static void main(String[] args)
-	{
-		int[] nums={1,2,3,4,5,6};
-		TreeNode a=sortedArrayToBST(nums);
-		System.out.println(a);
-	}
-	
+
 }
