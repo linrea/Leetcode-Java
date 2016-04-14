@@ -21,7 +21,7 @@ public class SwapNodesinPairs
 			return head;
 		ListNode newhead=head.next;
 		ListNode p=head,q;
-		ListNode temp=new ListNode(0);
+		ListNode temp=new ListNode(0); ////have to initialize, otherwise cannot use temp.next...
 		
 		while(p!=null&&p.next!=null)
 		{
