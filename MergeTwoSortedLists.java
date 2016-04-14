@@ -56,7 +56,11 @@ public class MergeTwoSortedLists
 		h.next=i;
 		i.next=j;
 		ListNode l3=mergeTwoLists(a,e);
-		System.out.println(l3.val);
+		while(l3!=null)
+		{
+			System.out.println(l3.val);
+			l3=l3.next;
+		}
 				
 				
 		
