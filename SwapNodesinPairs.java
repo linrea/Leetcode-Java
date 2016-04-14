@@ -55,7 +55,11 @@ public class SwapNodesinPairs
 		g.next=h;
 		h.next=i;
 		ListNode p= swapPairs(a);
-		System.out.println(p.val);
+		while(p.next!=null)
+		{
+			System.out.println(p.val);
+			p=p.next;
+		}
 		
 		
 	}
