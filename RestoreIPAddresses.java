@@ -13,8 +13,8 @@ public class RestoreIPAddresses
 {
 	public static List<String> restoreIpAddresses(String s) 
 	{
-		if(s.length()<4||s.length()>12) return null;
 		List<String> result=new ArrayList<String>();
+		if(s.length()<4||s.length()>12) return result;
 		String temp="";
 		restoreIpAddresses(s,temp,0,result);
 		return result;
